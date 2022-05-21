@@ -1,0 +1,79 @@
+# Awesome-ML-for-System
+
+A curated list of ***Machine Learning for System*** papers. 
+
+Please feel free to pull requests or open an issue to add papers.
+
+## Papers
+
+|    **System**    |  **Series** |                 **Scenario/Objective**                 |         **Algorithm**        |                                            **Code**                                           |
+|:----------------:|:-----------:|:------------------------------------------------------:|:----------------------------:|:---------------------------------------------------------------------------------------------:|
+|       Clara      |   SOSP '21  |                   SmartNIC Offloading                  |              MLs             |                           [Code](https://github.com/824728350/Clara)                          |
+|     TraceGen     |   SOSP '21  |                    Generate VM Trace                   |              RNN             |                  [Code](https://github.com/huaweicloud/trace_generation_rnn)                  |
+|       ParM       |   SOSP '19  |               Prediction Serving Systems               |              NN              |                      [Code](https://github.com/thesys-lab/parity-models)                      |
+| Resource Central |   SOSP '17  |                 VM Resource Management                 |         Random Forest        |                                                                                               |
+|     Polyjuice    |   OSDI '21  |             Transaction Concurrency Control            |            EA(RL)            |                        [Code](https://github.com/derFischer/Polyjuice)                        |
+|       FIRM       |   OSDI '20  |                 Microservices Scheduler                |            SVM+RL            |                      [Code](https://gitlab.engr.illinois.edu/DEPEND/firm)                     |
+|       Ansor      |   OSDI '20  |       Graph-level Optimization for Deep Learning       |             GBDT             |                [Code](https://bitbucket.org/lmzheng/ansor-artifact/src/master/)               |
+|       Narya      |   OSDI '20  |              VM Failure Mitigation Service             |              RL              |                                                                                               |
+|      XSTORE      |   OSDI '20  |           RDMA-based Ordered Key-Value Store           |             LR+NN            |                          [Code](https://github.com/SJTU-IPADS/xstore)                         |
+|      Bourbon     |   OSDI '20  |               Log-Structured Merge Trees               |         Piecewise LR         |            [Code](https://bitbucket.org/daiyifandanny/learned-leveldb/src/master/)            |
+|      LinnOS      |   OSDI '20  |                      Flash Storage                     |              NN              | [Code](https://www.chameleoncloud.org/experiment/share/15?s=409ab137f20e4cd38ae3dd4e0d4bfa7c) |
+|    Harvest VMs   |   OSDI '20  |                      VM Scheduling                     |         Random Forest        |                                                                                               |
+|   PredictPower   |   ATC '21   |            Datacenter Power Oversubscription           |              MLs             |                                                                                               |
+|    CrystalPerf   |   ATC '21   |           Performance Debugging and Reasoning          |              NN              |                                                                                               |
+|      Habitat     |   ATC '21   |                DNN Performance Modeling                |              NN              |                           [Code](https://github.com/geoffxy/habitat)                          |
+|       GoCC       |   ATC '21   |     Optimistic Concurrency Control for Go Programs     |              NN              |                         [Code](https://github.com/uber-research/GOCC)                         |
+|       Lumi       |   ATC '21   |         Natural Language for Network Management        |              NER             |                             [Code](https://lumichatbot.github.io/)                            |
+|     Ayudante     |   ATC '21   |          Assist Persistent Memory Programming          |              RL              |                                      Delete by the author                                     |
+|       AUTO       |   ATC '21   |                   Congestion Control                   |              RL              |                                                                                               |
+|       HDDse      |   ATC '20   |          Generic Disk Failure Detection System         |             LSTM             |                                                                                               |
+|     Percival     |   ATC '20   |            In-browser Perceptual Ad Blocking           |              CNN             |                           [Code](https://github.com/dxaen/percival)                           |
+|  Reconstructing  |   ATC '20   |                     Video Streaming                    |              DT              |   [Code](https://github.com/magruener/reconstructing-proprietary-video-streaming-algorithms)  |
+|   JumpSwitches   |   ATC '19   |          Defense Speculative Execution Attack          |              DT              |                                                                                               |
+|   CognitiveSSD   |   ATC '19   |           Unstructured Data Retrieval System           |              CNN             |                     [Code](https://github.com/Cognitive-SSD/Cognitive-SSD)                    |
+|    RuleRanker    |   ATC '19   |               Learning-augmented Systems               |              NN              |                                                                                               |
+|       ATAD       |   ATC '19   |              Time Series Anomaly Detection             | Transfer & Active   Learning |                                                                                               |
+|     Tributary    |   ATC '18   |               Prediction Elastic Services              |             LSTM             |                                                                                               |
+|    Mainstream    |   ATC '18   |              Multi-Tenant Video Processing             |       Transfer Learning      |                                                                                               |
+|       CDEF       |   ATC '18   |                  Disk Error Prediction                 |          Random Tree         |                                                                                               |
+|  SLAOrchestrator |   ATC '18   |                  Cloud Data Analytics                  |              NN              |                                                                                               |
+|       Metis      |   ATC '18   |        Tuning Configurations   for Cloud Systems       |           Bayesian           |                                                                                               |
+|      Selecta     |   ATC '18   |     Cloud Storage Configurations for Data Analytics    |              SVD             |                                                                                               |
+|       Sinan      |  ASPLOS '21 |                 Microservices Scheduler                |              NN              |                          [Code](https://github.com/zyqCSL/sinan-gcp)                          |
+|       Llama      |  ASPLOS '20 |                Memory Allocation for C++               |             LSTM             |                         [Code](https://github.com/alpaka-group/llama)                         |
+|    FlexTensor    |  ASPLOS '20 |       Graph-level Optimization for Deep Learning       |              RL              |                      [Code](https://github.com/KnowingNothing/FlexTensor)                     |
+|       Seer       |  ASPLOS '19 |             Microservices Anomaly Detection            |             LSTM             |                                                                                               |
+|        PES       |   ISCA '19  |               Proactive Event Scheduling               |              LR              |                                                                                               |
+|     NeuroPlan    | SIGCOMM '21 |                    Network Planning                    |              RL              |                         [Code](https://github.com/netx-repo/neuroplan)                        |
+|      Decima      | SIGCOMM '19 |               Spark Cluster Job Scheduler              |              RL              |                              [Code](https://web.mit.edu/decima/)                              |
+|     Pensieve     | SIGCOMM '17 |                     Video Streaming                    |              RL              |                         [Code](https://github.com/hongzimao/pensieve)                         |
+|       PerfD      |   NSDI '21  |         Blackbox System Performance Prediction         |              MLs             |                             [Code](https://github.com/perfd/perfd)                            |
+|        LRB       |   NSDI '20  |          Content Distribution Network Caching          |      Imitation Learning      |                            [Code](https://github.com/sunnyszy/lrb)                            |
+|    Cherrypick    |   NSDI '17  |       Cloud Configurations for Big Data Analytics      |           Bayesian           |                                                                                               |
+|      Helios      |    SC '21   |            DL Cluster Scheduler & Management           |             GBDT             |                                                                                               |
+|    RLScheduler   |    SC '20   |                 HPC Batch Job Scheduler                |              RL              |                    [Code](https://github.com/DIR-LAB/deep-batch-scheduler)                    |
+|       Metis      |    SC '20   | Schedule Long-Running Applications in Shared Container |              RL              |                            [Code](https://github.com/lwangbm/Metis)                           |
+|        RRL       |    SC '19   |               Prediction Serving Systems               |              RL              |                            [Code](https://github.com/HeyangQin/RRL)                           |
+|   SmartHarvest   | EuroSys '21 |                 VM Resource Harvesting                 |              LR              |                                                                                               |
+|        OFC       | EuroSys '21 |                 Caching System for FaaS                |              DT              |                         [Code](https://gitlab.com/lenapster/faascache)                        |
+|    Apichecker    | EuroSys '20 |                    Malware Detection                   |              MLs             |                             [Code](https://apichecker.github.io/)                             |
+|      Optimus     | EuroSys '18 |                    DL Job Scheduler                    |             NNLS             |                         [Code](https://github.com/pengyanghua/optimus)                        |
+|     Tiramisu     |  MLSys '21  |          Cost Model for Deep Learning Compiler         |              NN              |                             [Code](https://tiramisu-compiler.org/)                            |
+|       PARIS      |   SoCC '17  |                Choose VM Configurations                |         Random Forest        |                                                                                               |
+|        Bao       |  SIGMOD '21 |                   Query Optimization                   |           Tree CNN           |                   [Code](https://github.com/learnedsystems/baoforpostgresql)                  |
+|     QuickSel     |  SIGMOD '20 |                 Query-driven Estimation                |              MLs             |                        [Code](https://github.com/illinoisdata/quicksel)                       |
+|     Lachesis     |   VLDB '21  |    Data Integration and UDF-Centric Analytics System   |              RL              |                         [Code](https://github.com/asu-cactus/lachesis)                        |
+|       Naru       |   VLDB '20  |                   Query Optimization                   |     Autoregressive Models    |                          [Code](https://github.com/naru-project/naru)                         |
+|    CARDLEARNER   |   VLDB '18  |                 Learn Cardinality Model                |              ML              |                                                                                               |
+|      Aurora      |   ICML '19  |               Internet Congestion Control              |              RL              |                          [Code](https://github.com/PCCproject/PCC-RL)                         |
+|     LSTMDemo     |   ICML '18  |                   Memory Prefetching                   |             LSTM             |                        [Code](https://github.com/LittleDevilQ/LSTMDemo)                       |
+|      Placeto     | NeurIPS '19 |             Model Parallel Device Placement            |              RL              |                [Code](https://github.com/aravic/generalizable-device-placement)               |
+|        DL2       |   TPDS '21  |                    DL Job Scheduler                    |             NN+RL            |                           [Code](https://github.com/pengyanghua/DL2)                          |
+|       MLFS       |  CoNEXT '20 |                    DL Job Scheduler                    |              RL              |                [Code](https://github.com/hiddenlayer2020/ML-Job-Scheduler-MLFS)               |
+|       MSCN       |   CIDR '19  |                  Cardinality Estimate                  |              DL              |                  [Code](https://github.com/andreaskipf/learnedcardinalities)                  |
+|      DeepRM      | HotNets '16 |                   Resource Management                  |              RL              |                          [Code](https://github.com/hongzimao/deeprm)                          |
+|      CDBTune     |   ICMD '19  |                  Cloud Database Tuning                 |              RL              |                        [Code](https://github.com/HustAIsGroup/CDBTune)                        |
+|       FOOP       |    arXiv    |                 Join Query Optimization                |              RL              |            [Code](https://github.com/heitzjon/mt-join-query-optimization-with-drl)            |
+|     RL-Cache     |   JSAC '20  |              Cache Admission   in Edge CDN             |              RL              |                           [Code](https://github.com/WVadim/RL-Cache)                          |
+|    DeepSketch    |   FAST '22  |                     Data Reduction                     |              NN              |                  [Code](https://github.com/dgist-datalab/deepsketch-fast2022)                 |
